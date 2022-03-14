@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+html {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    background-image: url(images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-column-gap: 3em;
+    grid-row-gap: 3em; 
+}
+
+.grid-item-1 { 
+    grid-area: 1 / 2 / 2 / 3; 
+    align-self: center;
+    justify-self: center;
+    width: 100%;
+    height: 3em;
+    border-radius: 10px;
+    color: white;
+
+}
+
+.grid-item-2 { 
+    grid-area: 2 / 1 / 3 / 2;
+    align-self: center;
+    justify-self: center;  
+ }
+
+.grid-item-3 { 
+    grid-area: 2 / 2 / 3 / 3;
+    background-color: white;
+    border-radius: 10px;
+} 
+
+.try{
+    font-size: 1em;
+     width: 100%;
+     background-color: hsl(248, 32%, 49%);
+     border: none;
+     color: white;
+     font-weight: lighter;
+}
+
+.text-content{
+    width: 50ch;
+    color: white;
+}
+
+.text-content > h1{
+    font-size: 3em;
+    line-height: 1em;
+}
+
+.text-content > p{
+    margin-top: 2em;
+}
+
+form{
+    background-color: white;
+    margin: 2rem;
+}
+
+input,button {
+    width: 100%;
+    height: 3.3rem;
+    width: 29rem;
+    border-radius: 5px;
+    margin-top: 1.5em;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+input{
+    padding-left: 15px;
+    box-sizing: border-box;
+    border: thin solid rgba(0, 0, 0, 0.2);
+}
+
+.input-error{
+    background-image: url(images/ex.png);
+    background-size: 1.5em;
+    background-repeat: no-repeat;
+    background-position: 90% center;
+}
+
+input:focus{
+    border: thin solid black;
+    position: relative;
+   
+}
+
+.claim-button{
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    text-transform: uppercase;
+    border: none;
+}
+
+.small{
+    font-size: 0.7em;
+    text-align: center;
+    margin-top: 1em;
+}
+
+
+a{
+    color: hsl(0, 100%, 74%) ;
+}
+
+.eamty{
+    border: 2px solid red;
+}
+
+.error-p{
+    color: red;
+    text-align: right;
+    font-size: 0.7em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* h1{
+    font-size: 3.3em;
+    line-height: 1em;   
+}
+body {
+    
+}
+
+.main-countainer{
+    
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+   display: flex;
+   align-items: center;
+   gap: 100px;
+   width: 71rem;
+}
+
+
+main > div{
+    width: 32rem;
+}
+
+.text-content{
+    color: white;
+}
+.text-content>h1{
+    margin-bottom: 0.5em;
+}
+
+.form-content{
+    position: relative;
+    background-color: white;
+    border-radius: 15px;
+    
+    width: auto;
+}
+
+
+
+input{
+    padding-left: 15px;
+    box-sizing: border-box;
+    border: thin solid rgba(0, 0, 0, 0.2);
+}
+
+input:focus{
+    border: thin solid black;
+}
+
+button{
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    text-transform: uppercase;
+    border: none;
+}
+
+.small{
+    font-size: 0.7em;
+    text-align: center;
+    margin-top: 1em;
+}
+
+
+.try{
+    display: flex;
+    justify-content: right;
+    margin-bottom: 2em;
+
+    font-size: 0.4em;
+}
+
+.eamty{
+    border: thin solid red;
+}
+ */
+
+
+
+
